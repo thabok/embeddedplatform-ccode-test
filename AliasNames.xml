@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AliasNames epVersion="2.9p0">
+	<Architecture label="C-Code">
+		<Scope path="power_window_controller.c:1:power_window_controller">
+			<InterfaceObject path="Sa5_position_endstop_top" kind="Parameter" identifier="PARAMETER:Sa5_position_endstop_top:var">
+				<Signal aliasName="position_endstop_top">
+					<AccessElement element="" index="0" />
+					<AccessElement element="" index="1" />
+					<AccessElement element="" index="2" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="detection_endstop_bottom" kind="Local" identifier="LOCAL:detection_endstop_bottom:var">
+				<Signal aliasName="detection_endstop_bottom">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa1_auto_down_time" kind="Parameter" identifier="PARAMETER:Sa1_auto_down_time:var">
+				<Signal aliasName="auto_down_time">
+					<AccessElement element="" index="0" />
+					<AccessElement element="" index="1" />
+					<AccessElement element="" index="2" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa1_auto_up_time" kind="Parameter" identifier="PARAMETER:Sa1_auto_up_time:var">
+				<Signal aliasName="auto_up_time">
+					<AccessElement element="" index="0" />
+					<AccessElement element="" index="1" />
+					<AccessElement element="" index="2" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa1_emergency_down_time" kind="Parameter" identifier="PARAMETER:Sa1_emergency_down_time:var">
+				<Signal aliasName="emergency_down_time">
+					<AccessElement element="" index="0" />
+					<AccessElement element="" index="1" />
+					<AccessElement element="" index="2" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa1_obstacle_position" kind="Input" identifier="INPUT:Sa1_obstacle_position:var">
+				<Signal aliasName="obstacle_position">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa1_window_position" kind="Input" identifier="INPUT:Sa1_window_position:var">
+				<Signal aliasName="window_position">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa1_driver_down" kind="Input" identifier="INPUT:Sa1_driver_down:var">
+				<Signal aliasName="driver_down">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa1_driver_up" kind="Input" identifier="INPUT:Sa1_driver_up:var">
+				<Signal aliasName="driver_up">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa1_move_down" kind="Output" identifier="OUTPUT:Sa1_move_down:var">
+				<Signal aliasName="move_down">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa1_move_up" kind="Output" identifier="OUTPUT:Sa1_move_up:var">
+				<Signal aliasName="move_up">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa1_obstacle_detection" kind="Output" identifier="OUTPUT:Sa1_obstacle_detection:var">
+				<Signal aliasName="obstacle_detection">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa1_passenger_down" kind="Input" identifier="INPUT:Sa1_passenger_down:var">
+				<Signal aliasName="passenger_down">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa1_passenger_up" kind="Input" identifier="INPUT:Sa1_passenger_up:var">
+				<Signal aliasName="passenger_up">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+		</Scope>
+		<Scope path="power_window_controller.c:1:power_window_controller/detect_obstacle_endstop.c:1:detect_obstacle_endstop">
+			<InterfaceObject path="power_window_controller.c:1:power_window_controller/detect_obstacle_endstop.c:1:detect_obstacle_endstop/Sa2_obstacle_position" kind="Input" identifier="INPUT:Sa2_obstacle_position:par">
+				<Signal aliasName="obstacle_position">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="power_window_controller.c:1:power_window_controller/detect_obstacle_endstop.c:1:detect_obstacle_endstop/Sa2_window_position" kind="Input" identifier="INPUT:Sa2_window_position:par">
+				<Signal aliasName="window_position">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="power_window_controller.c:1:power_window_controller/detect_obstacle_endstop.c:1:detect_obstacle_endstop/Sa2_move_up" kind="Input" identifier="INPUT:Sa2_move_up:par">
+				<Signal aliasName="move_up">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa5_position_endstop_top" kind="Parameter" identifier="PARAMETER:Sa5_position_endstop_top:var">
+				<Signal aliasName="position_endstop_top">
+					<AccessElement element="" index="0" />
+					<AccessElement element="" index="1" />
+					<AccessElement element="" index="2" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="detection_endstop_bottom" kind="Local" identifier="LOCAL:detection_endstop_bottom:var">
+				<Signal aliasName="detection_endstop_bottom">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa2_endstop_bottom" kind="Output" identifier="OUTPUT:Sa2_endstop_bottom:var">
+				<Signal aliasName="endstop_bottom">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa2_endstop_top" kind="Output" identifier="OUTPUT:Sa2_endstop_top:var">
+				<Signal aliasName="endstop_top">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa2_obstacle" kind="Output" identifier="OUTPUT:Sa2_obstacle:var">
+				<Signal aliasName="obstacle">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+		</Scope>
+		<Scope path="power_window_controller.c:1:power_window_controller/validate_driver.c:1:validate_driver">
+			<InterfaceObject path="Sa2_endstop_bottom" kind="Input" identifier="INPUT:Sa2_endstop_bottom:var">
+				<Signal aliasName="endstop_bottom">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa2_endstop_top" kind="Input" identifier="INPUT:Sa2_endstop_top:var">
+				<Signal aliasName="endstop_top">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa1_driver_down" kind="Input" identifier="INPUT:Sa1_driver_down:var">
+				<Signal aliasName="driver_down">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa1_driver_up" kind="Input" identifier="INPUT:Sa1_driver_up:var">
+				<Signal aliasName="driver_up">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa3_validated_down" kind="Output" identifier="OUTPUT:Sa3_validated_down:var">
+				<Signal aliasName="validated_down">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa3_validated_neutral" kind="Output" identifier="OUTPUT:Sa3_validated_neutral:var">
+				<Signal aliasName="validated_neutral">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa3_validated_up" kind="Output" identifier="OUTPUT:Sa3_validated_up:var">
+				<Signal aliasName="validated_up">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+		</Scope>
+		<Scope path="power_window_controller.c:1:power_window_controller/validate_passenger.c:1:validate_passenger">
+			<InterfaceObject path="Sa2_endstop_bottom" kind="Input" identifier="INPUT:Sa2_endstop_bottom:var">
+				<Signal aliasName="endstop_bottom">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa2_endstop_top" kind="Input" identifier="INPUT:Sa2_endstop_top:var">
+				<Signal aliasName="endstop_top">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa1_passenger_down" kind="Input" identifier="INPUT:Sa1_passenger_down:var">
+				<Signal aliasName="passenger_down">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa1_passenger_up" kind="Input" identifier="INPUT:Sa1_passenger_up:var">
+				<Signal aliasName="passenger_up">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa4_validated_down" kind="Output" identifier="OUTPUT:Sa4_validated_down:var">
+				<Signal aliasName="validated_down">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa4_validated_neutral" kind="Output" identifier="OUTPUT:Sa4_validated_neutral:var">
+				<Signal aliasName="validated_neutral">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+			<InterfaceObject path="Sa4_validated_up" kind="Output" identifier="OUTPUT:Sa4_validated_up:var">
+				<Signal aliasName="validated_up">
+					<AccessElement element="" index="0" />
+				</Signal>
+			</InterfaceObject>
+		</Scope>
+	</Architecture>
+</AliasNames>

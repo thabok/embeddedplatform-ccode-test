@@ -1,0 +1,20 @@
+#
+# This is currently not being used!
+#
+
+# define options for the embeddedplatform application
+generalOptions:
+  timeout: 600
+  licensingPackage: "ET_COMPLETE"
+
+# define the desired test workflow
+testSteps:
+- name: "cCode"
+  codeModelPath: "CodeModel.xml"
+- name: "vectorImport"
+  importDir: "testcases"
+- name: "requirementsBasedTest"
+  createReport: true
+- name: "codeAnalysisReport"
+  useCase: "RBT"
+  
